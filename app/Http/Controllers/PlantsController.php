@@ -57,7 +57,7 @@ class PlantsController extends Controller
             The mints comprise
            a large group of creeping perennials, with many and varied forms, all characterized by highly aromatic foliage and pinkish flowers. 
            ',
-           'url_image'=>env('APP_URL').'/storage/strawberry.png',
+           'url_image'=>env('APP_URL').'/storage/mint.png',
             'soil_ph'=>[
                 'minimum'=>6 ,
                 'maximum'=>7.5
@@ -95,7 +95,7 @@ class PlantsController extends Controller
             'description'=>'Ocimum basilicum 
             is a strongly aromatic herb with leaves producing a clovelike flavor .Common or sweet basil has oval, bright-green leaves and whorls of small, white flowers from summer. It originates in tropical Asia, so should be grown as a tender annual.
            ',
-           'url_image'=>env('APP_URL').'/storage/strawberry.png',
+           'url_image'=>env('APP_URL').'/storage/basil.png',
             'soil_ph'=>[
                 'minimum'=>5.1 ,
                 'maximum'=>8.5
