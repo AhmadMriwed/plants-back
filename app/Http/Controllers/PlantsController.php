@@ -14,6 +14,7 @@ class PlantsController extends Controller
             'name'=>'Strawberry',
             'description'=>'Strawberries are renowned for their succulent and sweetly flavorsome fruits.
             Strawberries are commonly grown in temperate regions. In warmer regions, they are often grown as annuals.',
+            'age'=>10,
             'url_image'=>env('APP_URL').'/storage/strawberry.png',
             'soil_ph'=>[
                 'minimum'=>5.5,
@@ -57,6 +58,7 @@ class PlantsController extends Controller
             The mints comprise
            a large group of creeping perennials, with many and varied forms, all characterized by highly aromatic foliage and pinkish flowers. 
            ',
+           'age'=>12,
            'url_image'=>env('APP_URL').'/storage/mint.png',
             'soil_ph'=>[
                 'minimum'=>6 ,
@@ -95,6 +97,7 @@ class PlantsController extends Controller
             'description'=>'Ocimum basilicum 
             is a strongly aromatic herb with leaves producing a clovelike flavor .Common or sweet basil has oval, bright-green leaves and whorls of small, white flowers from summer. It originates in tropical Asia, so should be grown as a tender annual.
            ',
+           'age'=>15,
            'url_image'=>env('APP_URL').'/storage/basil.png',
             'soil_ph'=>[
                 'minimum'=>5.1 ,
